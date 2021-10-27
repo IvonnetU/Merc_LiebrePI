@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #EAC926;
+}cd
+
+a{
+  color:#000000;
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}
+ul,ol li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  background-color: #fff;
+  text-align: center;
+  margin:0px;
+  padding: 0px;
+}
+img{
+  width: 100%;
+}
+main{
+  width: 90%;
+  margin: auto;
+}
+
+h2{
+  color: #666;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+h4{
+  color:#666;
+  margin-bottom: 0;
+}
+
+section{
+  background-color: #ebebeb;
+}
+.ptb10{
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.content_logo{
+  margin: 20px;
+}
+
+img#logo_mercadoLiebre{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.content-search{
+  margin-left: 20px;
+}
+.content-search input[type='search']{
+  width: 250px;
+}
+.center-text{
+  text-align: center;
+}
+
+.burger-menu{
+  background-color: #1259c3;
+  padding: 10px;
+  color:#fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  display:table;
+}
+
+footer i{
+  font-size: 2em;
+  margin-bottom: 10px;
+  color:#1259c3;
+}
+
+
+.articulo_producto{
+  background-color: #fff;
+  margin: 0 15px 5px 15px;
+  box-shadow: #000000;  
+}
+.parrafo_precio{
+  color: #39b54a;
+}
+
+.icono_producto{
+  color:#39b54a;
+  border-radius: 50px;
+  border: solid 1px #39b54a;
+  padding: 10px;
+}
+
+.border_gris{
+  border-bottom: solid 1px #ebebeb;
+  margin-bottom: 20px;
+}
+
+.content_info_produ{
+  margin: 15px;
+}
+
+.mt_precio{
+  margin-top: 15px;
+}
