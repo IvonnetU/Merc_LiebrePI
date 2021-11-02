@@ -1,0 +1,49 @@
+<!-- formulario -->
+<div class="register">
+    <h1>Formulario de registro</h1>
+    <form action="/" method="POST" class="create-form"> 
+    <div class="control-register">
+        <label for="name" class="label-register">Nombre y apellido</label>
+        <imput type="text" class="control" name="name" id="name" required minlength="3">
+        <label for="user" class="label-register">Nombre de usuario</label>
+        <imput type="text" name="user_name" id="user_name" class="control" required minlength="4">
+        <label for="born" class="label-register">Fecha de nacimiento</label>
+        <imput type="date" name="born" id="born">
+        <label for="adress" class="label-register">Domicilio</label>
+        <imput type="text" name="adress" id="adress">
+        <label for="profile" class="label-register">Perfil de usuario</label>
+        <br>
+        <div class="profile_user_name">
+          <label class="label_profile"></label>
+          <br>
+          <label class="label_profile"></label>
+          <br>
+        </div>
+          <br>
+          <label for="category" class="label-register">Categorías de interés</label>
+          <label class="label-category"><input type="checkbox" name="category" value="Electro">Electro</label>
+          <label class="label-category"><input type="checkbox" name="category" value="Moda">Moda</label>
+          <label class="label-category"><input type="checkbox" name="category" value="Hogar">Hogar</label>
+          <label class="label-category"><input type="checkbox" name="category" value="Juguetería">Juguetería</label>
+          <label class="label-category"><input type="checkbox" name="category" value="Vida sana">Vida sana</label>
+          <br>
+          <label for="photo" class="label-register">Foto de usuario</label>
+          <input type="file" name="photo" id="photo">
+          <label for="password" class="label-register">Contraseña</label>
+          <input type="password" name="password" id="password" required minlength="6">
+          <label for="confirm" class="label-register">Confirmación contraseña</label>
+          <input type="confirm" name="confirm" id="confirm" required minlength="6">
+          <div class="buttom-form">
+            <button type="reset" class="buttom-reset">Borrar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </div>
+       </div>
+     <div>
+        <label>Está en oferta</label>
+        <imput type="radio" name="enOferta">
+    </div>
+    <button type="reset">Enviar</button>
+    <button type="summit">Guardar</button>
+    
+</form>
